@@ -11,20 +11,26 @@ NutriLensAI is a deep learning-powered health assistant that helps users interpr
 
 ## 📸 Demo
 
-![Interface Screenshot](screenshot_interface.png)
+### Upload Label Image
+<img src="images/1.png" alt="Upload Interface" width="400"/>
+
+### Nutrient Analysis & Visualization
+<img src="images/4.png" width="400"/>
+<img src="images/2.png" alt="Bar and Radar Chart" width="400"/>
+
+### Prediction Results & Explanations
+<img src="images/3.png" alt="Classification Output" width="400"/>
 
 - Upload a food label image  
 - System extracts nutritional content using OCR  
 - Classifies the label with explainable feedback  
 - Visual outputs: Bar Chart, Radar Chart, Confusion Matrix
 
-🎥 [Watch Presentation Video](https://www.dropbox.com/scl/fi/swr7irrvitpg8a9td7flj/AdvAI_Presentation.mp4?rlkey=swrdzqqft8pzp69bqk2euj0u6&st=idfh3d3v&dl=0)
-
 ---
 
 ## 🔍 Problem Statement
 
-Reading and understanding nutrition labels is tedious for many people—especially those managing diabetes, hypertension, or obesity. NutriLensAI automates this process, offering quick and clear nutritional feedback based on both:
+Reading and understanding nutrition labels is tedious for many people, especially those managing diabetes, hypertension, or obesity. NutriLensAI automates this process, offering quick and clear nutritional feedback based on both:
 - **Scientific rules** (e.g., sugar > 20g = Avoid)
 - **Learned patterns** from training data via a neural network
 
